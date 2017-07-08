@@ -7,16 +7,16 @@ int solution(int A[], int N)
 
         for(auto i = 0 ; i != N ; ++i )
         {
-                //j = i+1 porque no necesito mirar al pasado
+                //j = i+1 I do not need to look back
                 for(auto j = i+1 ; j != N ; ++j )
                 {
                         if(A[i]>=A[j])
                         {
-                        //no ganancias
+                        //no profit
                         }
                         else
                         {
-                        //ganancias
+                        //profit
                                 if( (A[j]-A[i]) > profit)
                                         profit = (A[j]-A[i]);
                         }
