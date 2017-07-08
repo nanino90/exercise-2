@@ -1,10 +1,14 @@
 # EXERCISE 2 # 
 # Ignacio Utrilla # 
 
-
-
 # Building #
 
 make e2.bin
+
+
+# Space complexity  #
+Variable profit, i and j
+
+# Time complexity  #
 
 

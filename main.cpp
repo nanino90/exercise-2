@@ -17,9 +17,8 @@ int solution(int A[], int N)
                         else
                         {
                         //ganancias
-                                int aux = (A[j]-A[i]);
-                                if(aux>profit)
-                                        profit = aux;
+                                if( (A[j]-A[i]) > profit)
+                                        profit = (A[j]-A[i]);
                         }
                 }
         }
