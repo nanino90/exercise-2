@@ -10,5 +10,6 @@ make e2.bin
 Variable profit, i and j
 
 # Time complexity  #
-I do not know how to reduce it while keeping Space complexity low
+solution_2 does have time complexity O(N) but space is bigger. I do not know how to reduce it while keeping Space complexity low.
+
 
